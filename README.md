@@ -37,14 +37,6 @@ css
 }
 
 
-  /* Căn chỉnh lại 4 lớp Box Model */
-  box-sizing: border-box;
-  padding: 12px;
-  border: 1px solid #ddd;
-  margin-bottom: 20px !important;
-}
-
-
 ### Phần 3. Kiểm thử lỗi Margin không chạy
 
 Nếu chỉnh margin mà khung dưới vẫn đứng yên, check 3 chỗ này ở tab Styles:
