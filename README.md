@@ -14,10 +14,28 @@ Lớp **Content** hiện có kích thước khoảng 300px × 150px nhưng bị 
 Inspect thẻ lỗi, chèn đoạn mã này vào tab Styles:
 
 css
+
+
 .driver-info {
+
   /* Trả về luồng hiển thị thường */
+  
   position: relative !important;
+  
   top: auto !important;
+
+  /* Căn chỉnh lại 4 lớp Box Model */
+  
+  box-sizing: border-box;
+  
+  padding: 12px;
+  
+  border: 1px solid #ddd;
+  
+  margin-bottom: 20px !important;
+  
+}
+
 
   /* Căn chỉnh lại 4 lớp Box Model */
   box-sizing: border-box;
